@@ -23,9 +23,17 @@ body {
 
 .banner {
   background-color: #e74c3c;
+  display: none;
 }
+
 .obdelnik {
   background-color: #2ecc71;
+}
+
+@media (min-width: 800px) {
+  .banner {
+    display: block;
+  }
 }
 
 /*
